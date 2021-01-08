@@ -54,12 +54,3 @@ module.exports.validateReview = (req, res, next) => {
 }
 
 
-
-//  let midCheck = isBlockUser(req.ip);
-//  if (midCheck) {
-//    res.redirect(`/campgrounds/${campground._id}`);
-//  }
-//  if (!ipCounter[req.ip]) {
-//    ipCounter[req.ip] = 0;
-//  }
-//  ipCounter[req.ip]++;
